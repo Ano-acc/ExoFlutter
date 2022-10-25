@@ -42,13 +42,6 @@ class _BtnExo2State extends State<BtnExo2> {
           changeColor();
         },
         child: Container(
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.only(
-                topRight: Radius.circular(40.0),
-                bottomRight: Radius.circular(40.0),
-                topLeft: Radius.circular(40.0),
-                bottomLeft: Radius.circular(40.0)),
-          ),
           width: 500,
           height: 500,
           color: isRed ? Colors.red : Colors.green,
